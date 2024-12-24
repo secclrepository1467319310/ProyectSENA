@@ -1,0 +1,82 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #e0f2e9; /* Fondo verde claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+    color: #188c0b; /* Verde oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la Tabla */
+table.dataTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table.dataTable thead {
+    background-color: #188c0b; /* Verde más oscuro */
+    color: white;
+}
+
+table.dataTable th, table.dataTable td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #c8e6c9; /* Verde claro al pasar el ratón */
+}
+
+/* Estilos de Botones */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #009688; /* Verde */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #00796b; /* Verde oscuro al pasar el ratón */
+}
+
+/* Estilos de DataTables */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #188c0b; /* Verde para paginación */
+    color: white !important;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #00796b; /* Verde más oscuro al pasar el ratón */
+}
